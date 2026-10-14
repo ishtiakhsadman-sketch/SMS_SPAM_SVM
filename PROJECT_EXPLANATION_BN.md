@@ -56,11 +56,4 @@ decision score ব্যবহার করা যায়, তাই শুধ
 - `SMS_Spam_SVM.ipynb`: ধাপে ধাপে code, explanation, graph ও sample output।
 - `results/metrics.json`: আসল run-এর সংখ্যাগত ফলাফল।
 
-## উপস্থাপনায় বলতে পারো
-
-“এটি একটি English SMS spam classifier। TF-IDF-এর সঙ্গে raw message-এর ছয়টি
-সংখ্যাগত feature মিলিয়ে Linear SVM ব্যবহার করা হয়েছে। Training folds-এ F1
-অনুযায়ী parameter নির্বাচন করা হয়। আলাদা test set দিয়ে evaluation করা হয়েছে।
-মূল project-এর credit রাখা হয়েছে; এই সংস্করণে reusable pipeline, notebook এবং
-training/prediction command যোগ করা হয়েছে।”
 
