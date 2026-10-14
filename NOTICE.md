@@ -1,7 +1,6 @@
 # Credits and source history
 
-This is an adaptation of the SMS Spam SVM project shared by the GitHub account
-**Fuwad9096**: https://github.com/Fuwad9096/svm_AI_project.
+This is an adaptation of the SMS Spam SVM project .
 The supplied archive included `README.md` and `sms_spam_svm_upgraded.py`.
 Its preprocessing approach, six hand-crafted features and SVM search design
 informed this implementation.
