@@ -1,0 +1,79 @@
+{
+  "accuracy": 0.9932170542635659,
+  "spam_precision": 0.984,
+  "spam_recall": 0.9609375,
+  "spam_f1": 0.9723320158102767,
+  "average_precision": 0.9899281775072905,
+  "majority_baseline_accuracy": 0.875968992248062,
+  "confusion_matrix_ham_spam": [
+    [
+      902,
+      2
+    ],
+    [
+      5,
+      123
+    ]
+  ],
+  "classification_report": {
+    "ham": {
+      "precision": 0.9944873208379272,
+      "recall": 0.9977876106194691,
+      "f1-score": 0.996134732192159,
+      "support": 904.0
+    },
+    "spam": {
+      "precision": 0.984,
+      "recall": 0.9609375,
+      "f1-score": 0.9723320158102767,
+      "support": 128.0
+    },
+    "accuracy": 0.9932170542635659,
+    "macro avg": {
+      "precision": 0.9892436604189636,
+      "recall": 0.9793625553097345,
+      "f1-score": 0.9842333740012179,
+      "support": 1032.0
+    },
+    "weighted avg": {
+      "precision": 0.9931865678657813,
+      "recall": 0.9932170542635659,
+      "f1-score": 0.9931824572920807,
+      "support": 1032.0
+    }
+  },
+  "dataset": {
+    "raw_rows": 5574,
+    "invalid_or_empty_rows_removed": 0,
+    "duplicate_messages_removed": 414,
+    "usable_rows": 5160,
+    "class_counts": {
+      "ham": 4518,
+      "spam": 642
+    }
+  },
+  "dataset_sha256": "83fb48629e1d657a28d47199837ae3088a8ec3754aa129fce50a61d5a350eda0",
+  "training_rows": 4128,
+  "test_rows": 1032,
+  "random_state": 42,
+  "cv_folds": 5,
+  "search_mode": "full",
+  "best_parameters": {
+    "features__tfidf__max_features": 5000,
+    "features__tfidf__ngram_range": [
+      1,
+      2
+    ],
+    "svm__C": 1.0,
+    "svm__class_weight": "balanced"
+  },
+  "best_training_cv_f1": 0.9426482792302526,
+  "cv_note": "Selection score from training folds; not an unbiased post-selection estimate.",
+  "versions": {
+    "python": "3.12.14",
+    "scikit-learn": "1.8.0",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "nltk": "3.10.3"
+  }
+}
