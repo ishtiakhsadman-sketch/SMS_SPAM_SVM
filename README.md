@@ -4,7 +4,6 @@ An educational machine-learning project that classifies an English SMS as
 **Spam** or **Ham** (a normal message). It combines TF-IDF text features with
 six features extracted from the original message, then trains a Linear SVM.
 
-Adapted from [Fuwad9096's original project](https://github.com/Fuwad9096/svm_AI_project).
 See [NOTICE.md](NOTICE.md) for source credit and redistribution information.
 
 ## What is included
